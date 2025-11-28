@@ -1,8 +1,8 @@
 export default function Features() {
   return (
-    <div className="mx-auto max-w-7xl px-6 py-16">
+    <div className="mx-auto max-w-7xl px-10 py-16">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div className="rounded-xl border border-gray-200 p-6 bg-white hover:shadow-md transition">
+        <div className="rounded-xl border  border-gray-200 p-6 bg-white hover:scale-[1.02] hover:shadow-lg transition">
           <svg
             className="w-8 h-8 text-indigo-600 mb-4"
             fill="none"
@@ -18,7 +18,7 @@ export default function Features() {
           </p>
         </div>
 
-        <div className="rounded-xl border border-gray-200 p-6 bg-white hover:shadow-md transition">
+        <div className="rounded-xl border hover:scale-[1.02] border-gray-200 p-6 bg-white hover:shadow-lg transition">
           <svg
             className="w-8 h-8 text-indigo-600 mb-4"
             fill="none"
@@ -32,7 +32,7 @@ export default function Features() {
           <p className="text-gray-500 text-sm">Deploy your generated pages directly to Vercel with one click.</p>
         </div>
 
-        <div className="rounded-xl border border-gray-200 p-6 bg-white hover:shadow-md transition">
+        <div className="rounded-xl border border-gray-200 p-6 bg-white hover:shadow-lg hover:scale-[1.02] transition">
           <svg
             className="w-8 h-8 text-indigo-600 mb-4"
             fill="none"

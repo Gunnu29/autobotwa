@@ -21,7 +21,7 @@ export default function Testimonials() {
   ]
 
   return (
-    <section className="mx-auto max-w-7xl px-6 py-20">
+    <section className="mx-auto max-w-7xl px-10 py-20">
       <div className="text-center mb-12">
         <h2 className="text-5xl font-bold text-gray-900 mb-3">What Our Users Say</h2>
         <p className="text-gray-600">Trusted by designers, developers, and founders worldwide.</p>
@@ -29,7 +29,7 @@ export default function Testimonials() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-md transition">
+          <div key={index} className="bg-white rounded-xl border border-gray-200 p-6 hover:shadow-lg hover:scale-[1.02] transition">
             <div className="flex items-center gap-3 mb-4">
               <div className="w-12 h-12 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-600 font-semibold">
                 {testimonial.avatar}
